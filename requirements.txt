@@ -1,7 +1,7 @@
 aiohttp[speedups]
 aiofiles
 aioshutil
-anytree==2.8.0
+anytree==2.12.1
 apscheduler
 aria2p
 asyncio
@@ -35,7 +35,7 @@ python-dotenv
 pyshorteners
 python-magic
 pymongo
-pyrofork==2.3.53
+pyrofork==2.3.55
 quoters
 qbittorrent-api
 requests
