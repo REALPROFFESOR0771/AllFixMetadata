@@ -181,7 +181,7 @@ async def restart_notification():
 
     async def send_incompelete_task_message(cid, msg):
         try:
-            if msg.startswith("⌬ <b><i>Restarted Successfully!</i></b>"):
+            if msg.startswith("⌬ <b><i>Restarted Successfully!☠️</i></b>"):
                 await bot.edit_message_text(chat_id=chat_id, message_id=msg_id, text=msg, disable_web_page_preview=True)
                 await aioremove(".restartmsg")
             else:
