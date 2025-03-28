@@ -13,15 +13,15 @@ class WZMLStyle:
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<pre><b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i></pre>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
-<b>Temp Token:</b> <code>{token}</code>
-<b>Validity:</b> {validity}'''
+    TOKEN_MSG = '''<pre><b><u>Generated Temporary Login Token!</u></b></pre>
+<pre><b>Temp Token:</b></pre> <code>{token}</code>
+<pre><b>Validity:</b></pre> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
     ACTIVATED = 'Activated ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Already Bot Login In!</b>'
+    LOGGED_IN = '<pre><b>Already Bot Login In!</b></pre>'
     INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
     PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
     LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
