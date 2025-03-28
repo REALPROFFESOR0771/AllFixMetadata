@@ -2,10 +2,10 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🦉Owner'
-    ST_BN1_URL = 'https://t.me/aboutRizzx'
-    ST_BN2_NAME = '🌨️'
-    ST_BN2_URL = 'https://t.me/CloudStoreRizz'
+    ST_BN1_NAME = 'Owner'
+    ST_BN1_URL = 'https://t.me/PROFE07XH'
+    ST_BN2_NAME = 'Update'
+    ST_BN2_URL = 'https://t.me/Max_Leech_Zone_Update'
     ST_MSG = '''<blockquote><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></blockquote>'''
     ST_BOTPM = '''<blockquote><i>Now, This bot will send all your files and links here. Start Using ...</blockquote></i>'''
     ST_UNAUTH = '''<blockquote><i>You Are not authorized user!</i></blockquote>'''
