@@ -6,12 +6,12 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/PROFE07XH'
     ST_BN2_NAME = 'Update'
     ST_BN2_URL = 'https://t.me/Max_Leech_Zone_Update'
-    ST_MSG = '''<blockquote><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></blockquote>'''
-    ST_BOTPM = '''<blockquote><i>Now, This bot will send all your files and links here. Start Using ...</blockquote></i>'''
-    ST_UNAUTH = '''<blockquote><i>You Are not authorized user!</i></blockquote>'''
-    OWN_TOKEN_GENERATE = '''<blockquote><b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i></blockquote>'''
+    ST_MSG = '''<pre><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></pre>'''
+    ST_BOTPM = '''<pre><i>Now, This bot will send all your files and links here. Start Using ...</pre></i>'''
+    ST_UNAUTH = '''<pre><i>You Are not authorized user!</i></blockquote>'''
+    OWN_TOKEN_GENERATE = '''<blockquote><b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i></pre>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<blockquote><b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i></blockquote>'''
+    LOGGED_PASSWORD = '''<pre><b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i></pre>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
     TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
 <b>Temp Token:</b> <code>{token}</code>
@@ -36,10 +36,10 @@ class WZMLStyle:
     MICS_BT = 'Mics'
     O_S_BT = 'Owner & Sudos'
     CLOSE_BT = 'Close'
-    HELP_HEADER = "<blockquote>🚨 <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b></blockquote>"
+    HELP_HEADER = "<pre>🚨 <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b></pre>"
 
     # async def stats(client, message):
-    BOT_STATS = '''<blockquote expandable>🤖 <b><i>BOT STATISTICS :</i></b>
+    BOT_STATS = '''<pre expandable>🤖 <b><i>BOT STATISTICS :</i></b>
 <b>Bot Uptime :</b> {bot_uptime}
 
 <b><i>RAM ( MEMORY ) :</i></b>
@@ -54,10 +54,10 @@ class WZMLStyle:
 {disk_bar} {disk}%
 <b>Total Disk Read :</b> {disk_read}
 <b>Total Disk Write :</b> {disk_write}
-<b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}</blockquote>
+<b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}</pre>
     
     '''
-    SYS_STATS = '''<blockquote expandable>💻 <b><i>OS SYSTEM :</i></b>
+    SYS_STATS = '''<pre expandable>💻 <b><i>OS SYSTEM :</i></b>
 <b>OS Uptime :</b> {os_uptime}
 <b>OS Version :</b> {os_version}
 <b>OS Arch :</b> {os_arch}
@@ -77,15 +77,15 @@ class WZMLStyle:
 <b>Total Core(s) :</b> {total_core}
 <b>Usable CPU(s) :</b> {cpu_use}</blockquote>
     '''
-    REPO_STATS = '''<blockquote>💀 <b><i>REPO STATISTICS :</i></b>
+    REPO_STATS = '''<pre>💀 <b><i>REPO STATISTICS :</i></b>
 <b>Bot Updated :</b> {last_commit}
 <b>Current Version :</b> {bot_version}
 <b>Latest Version :</b> {lat_version}
 <b>Last ChangeLog :</b> {commit_details}
 
-⌬ <b>REMARKS :</b> <code>{remarks}</code></blockquote>
+⌬ <b>REMARKS :</b> <code>{remarks}</code></pre>
     '''
-    BOT_LIMITS = '''<blockquote expandable>🤖 <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''<pre expandable>🤖 <b><i>BOT LIMITATIONS :</i></b>
 <b>Direct Limit :</b> {DL} GB
 <b>Torrent Limit :</b> {TL} GB
 <b>GDrive Limit :</b> {GL} GB
@@ -98,44 +98,44 @@ class WZMLStyle:
 <b>Token Validity :</b> {TV}
 <b>User Time Limit :</b> {UTI} / task
 <b>User Parallel Tasks :</b> {UT}
-<b>Bot Parallel Tasks :</b> {BT}</blockquote>
+<b>Bot Parallel Tasks :</b> {BT}</pre>
     '''
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<blockquote><i>Restarting...</i></blockquote>'
+    RESTARTING = '<pre><i>Restarting...</i></pre>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''<blockquote>🌋 <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''<pre>🌋 <b><i>Restarted Successfully!</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}</blockquote>'''
-    RESTARTED = '''<blockquote>🍁 <b><i>Bot Restarted!</i></b></blockquote>'''
+┖ <b>Version:</b> {version}</pre>'''
+    RESTARTED = '''<pre>🍁 <b><i>Bot Restarted!</i></b></pre>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<blockquote><i>Starting Ping..</i></blockquote>'
-    PING_VALUE = '<blockquote><b>Tunik🐾</b>\n<code>{value} ms..</code></blockquote>'
+    PING = '<pre><i>Starting Ping..</i></pre>'
+    PING_VALUE = '<pre><b>Tunik🐾</b>\n<code>{value} ms..</code></pre>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<blockquote><b><i>Task Started</i></b>
+    LINKS_START = """<pre><b><i>Task Started</i></b>
 <b>Mode:</b> {Mode}
-<b>By:</b> {Tag}\n\n</blockquote>"""
-    LINKS_SOURCE = """<blockquote>➲ <b>Source:</b>
+<b>By:</b> {Tag}\n\n</pre>"""
+    LINKS_SOURCE = """<pre>➲ <b>Source:</b>
 <b>Added On:</b> {On}
 ------------------------------------------
 {Source}
-------------------------------------------\n\n</blockquote>"""
+------------------------------------------\n\n</pre>"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "<blockquote>➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a></blockquote>"
-    L_LOG_START =           "<blockquote>➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a></blockquote>"
+    PM_START =            "<pre>➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a></pre>"
+    L_LOG_START =           "<pre>➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a></pre>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<blockquote><b><i>{Name}</i></b>\n</blockquote>'
+    NAME =                  '<pre><b><i>{Name}</i></b>\n</pre>'
     SIZE =                  '<b>Size: </b>{Size}\n'
     ELAPSE =                '<b>Elapsed: </b>{Time}\n'
     MODE =                  '<b>Mode: </b>{Mode}\n'
@@ -172,10 +172,10 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<blockquote expandable><code><i>{Name}</i></code></blockquote>'
+    STATUS_NAME =       '<pre expandable><code><i>{Name}</i></code></pre>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '<blockquote>{Bar}</blockquote>'
+    BAR =               '<pre>{Bar}</pre>'
     PROCESSED =         '\n<b>Processed:</b> {Processed}'
     STATUS =            '\n<b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
@@ -201,11 +201,11 @@ class WZMLStyle:
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n<b>User:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '<blockquote><b>Select:</b> <code>{Btsel}</code></blockquote>'
-    CANCEL =         '<blockquote>{Cancel}\n</blockquote>'
+    BTSEL =          '<pre><b>Select:</b> <code>{Btsel}</code></pre>'
+    CANCEL =         '<pre>{Cancel}\n</pre>'
 
     ####------FOOTER--------
-    FOOTER = '<blockquote><b><i>Bot Stats</i></b>\n</blockquote>'
+    FOOTER = '<pre><b><i>Bot Stats</i></b>\n</pre>'
     TASKS =  '<b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '<b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '<b>CPU:</b> {cpu}% | '
@@ -242,16 +242,16 @@ class WZMLStyle:
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<blockquote><i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<pre><i>No Active Downloads!</i>
     
 <b><i>Bot Stats</i></b>
 <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-<b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}</blockquote>
+<b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}</pre>
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''<blockquote>🔮<b><u>User Settings :</u></b>
+    USER_SETTING = '''<pre>🔮<b><u>User Settings :</u></b>
         
 <b> Name :</b> {NAME} ( <code>{ID}</code> )
 <b> Username :</b> {USERNAME}
@@ -259,9 +259,9 @@ class WZMLStyle:
 <b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg</blockquote>'''
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg</pre>'''
 
-    UNIVERSAL = '''<blockquote>🗿 <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''<pre>🗿 <b><u>Universal Settings : {NAME}</u></b>
 
 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
 <b> Daily Tasks :</b> <code>{DT}</code> per day
@@ -269,9 +269,9 @@ class WZMLStyle:
 <b> User Session :</b> <code>{USESS}</code>
 <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
-<b> User Bot PM :</b> <code>{BOT_PM}</code></blockquote>'''
+<b> User Bot PM :</b> <code>{BOT_PM}</code></pre>'''
 
-    MIRROR = '''<blockquote>☠ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''<pre>☠ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
 <b> RClone Config :</b> <i>{RCLONE}</i>
 <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
@@ -280,9 +280,9 @@ class WZMLStyle:
 <b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
 <b> User TD Mode :</b> <i>{TMODE}</i>
 <b> Total User TD(s) :</b> <i>{USERTD}</i>
-<b> Daily Mirror :</b> <code>{DM}</code> per day</blockquote>'''
+<b> Daily Mirror :</b> <code>{DM}</code> per day</pre>'''
 
-    LEECH = '''<blockquote expandable>❄️ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''<pre expandable>❄️ <b><u>Leech Settings for {NAME}</u></b>
 
 <b> Daily Leech : </b><code>{DL}</code> per day
 <b> Leech Type :</b> <i>{LTYPE}</i>
@@ -294,4 +294,4 @@ class WZMLStyle:
 <b> Leech Prefix :</b> <code>{LPREFIX}</code>
 <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 <b> Leech Dumps :</b> <code>{LDUMP}</code>
-<b> Leech Remname :</b> <code>{LREMNAME}</code></blockquote>'''
+<b> Leech Remname :</b> <code>{LREMNAME}</code></pre>'''
