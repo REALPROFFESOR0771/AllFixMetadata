@@ -8,8 +8,8 @@ class WZMLStyle:
     ST_BN2_URL = 'https://t.me/Max_Leech_Zone_Update'
     ST_MSG = '''<pre><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></pre>'''
     ST_BOTPM = '''<pre><i>Now, This bot will send all your files and links here. Start Using ...</pre></i>'''
-    ST_UNAUTH = '''<pre><i>You Are not authorized user!</i></blockquote>'''
-    OWN_TOKEN_GENERATE = '''<blockquote><b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i></pre>'''
+    ST_UNAUTH = '''<pre><i>You Are not authorized user!</i></pre>'''
+    OWN_TOKEN_GENERATE = '''<pre><b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i></pre>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<pre><b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i></pre>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
@@ -75,7 +75,7 @@ class WZMLStyle:
 <b>System Avg Load :</b> {sys_load}
 <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
 <b>Total Core(s) :</b> {total_core}
-<b>Usable CPU(s) :</b> {cpu_use}</blockquote>
+<b>Usable CPU(s) :</b> {cpu_use}</pre>
     '''
     REPO_STATS = '''<pre>💀 <b><i>REPO STATISTICS :</i></b>
 <b>Bot Updated :</b> {last_commit}
