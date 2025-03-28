@@ -201,11 +201,11 @@ class WZMLStyle:
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n<b>User:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '<pre><b>Select:</b> <code>{Btsel}</code></pre>'
-    CANCEL =         '<pre>{Cancel}\n</pre>'
+    BTSEL =          '<b>Select:</b> <code>{Btsel}</code>'
+    CANCEL =         '{Cancel}\n'
 
     ####------FOOTER--------
-    FOOTER = '<pre><b><i>Bot Stats</i></b>\n</pre>'
+    FOOTER = '<b><i>Bot Stats</i></b>\n'
     TASKS =  '<b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '<b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '<b>CPU:</b> {cpu}% | '
