@@ -12,7 +12,7 @@ class WZMLStyle:
     OWN_TOKEN_GENERATE = '''<pre><b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i></pre>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<pre><b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i></pre>'''
-    ACTIVATE_BUTTON = 'Activate Temporary Token'
+    ACTIVATE_BUTTON = 'Activate Temporary Token🗽'
     TOKEN_MSG = '''<pre><b><u>Generated Temporary Login Token!</u></b></pre>
 <pre><b>Temp Token:</b></pre> <code>{token}</code>
 <pre><b>Validity:</b></pre> {validity}'''
@@ -135,25 +135,25 @@ class WZMLStyle:
     L_LOG_START =           "<pre>➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a></pre>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<pre><b><i>{Name}</i></b>\n</pre>'
-    SIZE =                  '<b>Size: </b>{Size}\n'
-    ELAPSE =                '<b>Elapsed: </b>{Time}\n'
-    MODE =                  '<b>Mode: </b>{Mode}\n'
+    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
+    SIZE =                  '┠ <b>Size: </b>{Size}\n'
+    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
+    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '<b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '<b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '<b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
+    L_CC =                  '┠ <b>By: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                '<b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '<b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '<b>Files: </b>{Files}\n'
-    RCPATH =                '<b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '<b>By: </b>{Tag}\n\n'
+    M_TYPE =                '┠<b>Type: </b>{Mimetype}\n'
+    M_SUBFOLD =             '┠<b>SubFolders: </b>{Folder}\n'
+    TOTAL_FILES =           '┠<b>Files: </b>{Files}\n'
+    RCPATH =                '┠<b>Path: </b><code>{RCpath}</code>\n'
+    M_CC =                  '┠<b>By: </b>{Tag}\n\n'
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
@@ -226,13 +226,13 @@ class WZMLStyle:
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
-    COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '<b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '<b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '<b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '<b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '<b>By: </b>{COUNT_CC}\n'
+    COUNT_MSG = '┠<b>Counting:</b> <code>{LINK}</code>'
+    COUNT_NAME = '┠<b><i>{COUNT_NAME}</i></b>\n┃\n'
+    COUNT_SIZE = '┠<b>Size: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠<b>Type: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠<b>SubFolders: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠<b>Files: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┠<b>By: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
