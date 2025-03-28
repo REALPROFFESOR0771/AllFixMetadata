@@ -217,7 +217,7 @@ class WZMLStyle:
 
     ###--------BUTTONS-------
     PREVIOUS = '☚'
-    REFRESH = ' ✈\n{Page}'
+    REFRESH = ' MᴀxBᴏᴛꜱ\n{Page}'
     NEXT = '☛'
     # ---------------------
 
